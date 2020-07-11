@@ -12,7 +12,7 @@ static int use_prefix = 1;
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"SF Pro Display:size=14"};
+	"SF Pro Display:size=12"};
 static const char *prompt = NULL; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
@@ -25,7 +25,7 @@ static const char *colors[SchemeLast][2] = {
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines = 5;
 /* -h option; minimum height of a menu line     */
-static unsigned int lineheight = 50;
+static unsigned int lineheight = 35;
 
 /* Size of the window border */
 static unsigned int border_width = 5;
